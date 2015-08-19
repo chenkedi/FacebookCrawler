@@ -1,0 +1,8 @@
+package api.facebook.daoImpl;
+
+import api.facebook.dao.ToDao;
+
+public class ToDaoImpl implements ToDao
+{
+
+}

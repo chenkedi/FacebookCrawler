@@ -1,0 +1,92 @@
+[ERROR][07-30 10:35:03][main][api.facebook.method.GraphAPI][395]
+params.properties 文件中的useProxy字段为空！读取失败
+[ERROR][07-30 10:37:42][main][api.facebook.method.GraphAPI][265]
+未知的网络连接错误错误！
+[ERROR][07-30 10:37:42][main][api.facebook.method.GraphAPI][266]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.net.ConnectException: Connection timed out: connectConnect to graph.facebook.com:443 [graph.facebook.com/159.106.121.75] failed: Connection timed out: connect
+[ERROR][07-30 10:45:20][main][api.facebook.method.GraphAPI][170]
+当请求immeifen的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:45:20][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:45:41][main][api.facebook.method.GraphAPI][170]
+当请求gogogoeball的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:45:41][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:45:57][main][api.facebook.method.GraphAPI][170]
+当请求chiangwanan的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:45:57][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:46:21][main][api.facebook.method.GraphAPI][170]
+当请求superkcl的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:46:21][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:54:07][main][api.facebook.method.GraphAPI][170]
+当请求yeswuasheng的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:54:07][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:54:32][main][api.facebook.method.GraphAPI][170]
+当请求mtlo.tw的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:54:32][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:54:49][main][api.facebook.method.GraphAPI][170]
+当请求junglicity的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:54:49][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:55:06][main][api.facebook.method.GraphAPI][170]
+当请求yanglihuan的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:55:06][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:55:22][main][api.facebook.method.GraphAPI][170]
+当请求1503745219913314的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:55:22][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:55:40][main][api.facebook.method.GraphAPI][170]
+当请求kuanheng99的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:55:40][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:55:57][main][api.facebook.method.GraphAPI][170]
+当请求109391162488374的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:55:57][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:58:33][main][api.facebook.method.GraphAPI][170]
+当请求597676810379157的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:58:33][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:58:53][main][api.facebook.method.GraphAPI][170]
+当请求Sweet.Yunlin的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:58:53][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:59:12][main][api.facebook.method.GraphAPI][170]
+当请求davis0301的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:59:12][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 10:59:32][main][api.facebook.method.GraphAPI][170]
+当请求365814205165的posts属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 10:59:32][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 16:14:34][main][api.facebook.method.GraphAPI][170]
+当请求TWInlandRock的feed属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 16:14:34][main][api.facebook.method.GraphAPI][172]
+String index out of range: 200
+[ERROR][07-30 16:15:42][main][api.facebook.method.GraphAPI][265]
+未知的网络连接错误错误！
+[ERROR][07-30 16:15:42][main][api.facebook.method.GraphAPI][266]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.net.ConnectException: Connection timed out: connectConnect to graph.facebook.com:443 [graph.facebook.com/159.106.121.75] failed: Connection timed out: connect
+[ERROR][07-30 16:29:53][main][api.facebook.method.GraphAPI][105]
+当请求127628276929_10152754667791930的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 16:29:53][main][api.facebook.method.GraphAPI][106]
+{"id":"127628276929_10152754667791930","created_time":"2015-05-16T03:05:02+0000"}
+[ERROR][07-30 16:29:53][main][api.facebook.method.GraphAPI][107]
+String index out of range: 200
+[ERROR][07-30 16:29:56][main][api.facebook.method.GraphAPI][105]
+当请求127628276929_10152748251866930的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 16:29:56][main][api.facebook.method.GraphAPI][106]
+{"id":"127628276929_10152748251866930","created_time":"2015-05-16T02:05:00+0000"}
+[ERROR][07-30 16:29:56][main][api.facebook.method.GraphAPI][107]
+String index out of range: 200
+[ERROR][07-30 16:30:00][main][api.facebook.method.GraphAPI][105]
+当请求127628276929_10152752619501930的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-30 16:30:00][main][api.facebook.method.GraphAPI][106]
+{"id":"127628276929_10152752619501930","created_time":"2015-05-16T00:00:02+0000"}
+[ERROR][07-30 16:30:00][main][api.facebook.method.GraphAPI][107]
+String index out of range: 200

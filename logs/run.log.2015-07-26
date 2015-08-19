@@ -1,0 +1,188 @@
+[INFO ][07-26 20:30:18][main][api.facebook.main.PostsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][07-26 20:30:19][main][api.facebook.main.PostsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][07-26 20:32:52][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:32:52][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/158025223269/posts?limit=25&__paging_token=enc_AdCoVHcAgquZBCPL11SsZBNub8k8pMZC0ZC6ZBdIfrM8VuevcnD4ZBNWcTZCH6b9CLbloFfZAkzqB7NtVvB1ZAu5CUj42kMkbZCEZBYmHgu8JjE0yOlp2NZAAQZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1416978324
+[INFO ][07-26 20:33:19][main][api.facebook.method.GraphAPI][148]
+获取 BToday的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:33:49][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:33:52][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"158025223269_10152872945113270","from":{"name":"\u4eca\u5468\u520a","category":"Magazine","id":"158025223269"},"message":"\u3010\u672c\u671f\u5c01\u9762\u3011108\u4f4d\u5104\u5143\u5bc
+[INFO ][07-26 20:34:27][main][api.facebook.method.GraphAPI][108]
+获得"今周刊"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:34:27][main][api.facebook.main.PostsInfoCrawler][106]
+今周刊的贴文批量插入成功!
+[INFO ][07-26 20:34:27][main][api.facebook.main.PostsInfoCrawler][109]
+今周刊的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:34:55][main][api.facebook.main.PostsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][07-26 20:34:56][main][api.facebook.main.PostsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][07-26 20:34:57][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:34:57][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/158025223269/posts?limit=25&__paging_token=enc_AdDcRSEYDpXBhsN6sGsJTfOM2F6ZB7QMGWrzuqrZB9xOfD2s5NimTuqAjtCNwhBCKibJThiZB8n6Fs1FX30rpvthvFaoji6VXxH5pZB5Ti5qL663QQZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1416834197
+[INFO ][07-26 20:35:16][main][api.facebook.method.GraphAPI][148]
+获取 BToday的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:35:20][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:35:20][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"158025223269_10152869131053270","from":{"name":"\u4eca\u5468\u520a","category":"Magazine","id":"158025223269"},"message":"\u3010\u4eba\u751f\u4f7f\u7528\u624b\u518a\u3011\u7b11\u5225\u
+[INFO ][07-26 20:35:20][main][api.facebook.method.GraphAPI][108]
+获得"今周刊"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:35:21][main][api.facebook.main.PostsInfoCrawler][106]
+今周刊的贴文批量插入成功!
+[INFO ][07-26 20:35:21][main][api.facebook.main.PostsInfoCrawler][109]
+今周刊的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:35:21][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:35:21][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/160144950715498/posts?limit=25&__paging_token=enc_AdAp34ZCbhZB6z19G9a1oIoKXLOPPBndLX9ffRqoeqVPAtXlNkN3wZBplOpfpVtseimrdOAw0cZAZBta11xCikfeQ1ldUkc4XxTXxsSb3LAPZAskGOmwZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1400191414
+[INFO ][07-26 20:35:27][main][api.facebook.method.GraphAPI][148]
+获取 MilitarySpokesman的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:35:30][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:35:30][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"160144950715498_706769876053000","from":{"name":"\u570b\u9632\u90e8\u767c\u8a00\u4eba","category":"Government Organization","category_list":[{"id":"161422927240513","name":"Government 
+[INFO ][07-26 20:35:30][main][api.facebook.method.GraphAPI][108]
+获得"國防部發言人"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:35:30][main][api.facebook.main.PostsInfoCrawler][106]
+國防部發言人的贴文批量插入成功!
+[INFO ][07-26 20:35:30][main][api.facebook.main.PostsInfoCrawler][109]
+國防部發言人的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:36:31][main][api.facebook.main.PostsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][07-26 20:36:32][main][api.facebook.main.PostsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][07-26 20:37:03][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:37:03][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/160144950715498/posts?limit=25&__paging_token=enc_AdAp34ZCbhZB6z19G9a1oIoKXLOPPBndLX9ffRqoeqVPAtXlNkN3wZBplOpfpVtseimrdOAw0cZAZBta11xCikfeQ1ldUkc4XxTXxsSb3LAPZAskGOmwZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1400191414
+[INFO ][07-26 20:37:36][main][api.facebook.method.GraphAPI][148]
+获取 MilitarySpokesman的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:37:59][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:38:03][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"160144950715498_706769876053000","from":{"name":"\u570b\u9632\u90e8\u767c\u8a00\u4eba","category":"Government Organization","category_list":[{"id":"161422927240513","name":"Government 
+[INFO ][07-26 20:38:35][main][api.facebook.method.GraphAPI][108]
+获得"國防部發言人"的贴文信息成功！准备写入数据库！
+[ERROR][07-26 20:38:45][main][api.facebook.daoImpl.PostDaoImpl][71]
+数据库批量插入“47”的Posts数据出错，错误信息：PreparedStatementCallback; SQL [INSERT INTO posts(message_id,message,created_time,seeds_id,link,picture,shares) VALUES (?,?,?,?,?,?,?)]; Duplicate entry '160144950715498_705873542809300' for key 'message_id'; nested exception is java.sql.BatchUpdateException: Duplicate entry '160144950715498_705873542809300' for key 'message_id'
+[INFO ][07-26 20:38:45][main][api.facebook.main.PostsInfoCrawler][106]
+國防部發言人的贴文批量插入成功!
+[INFO ][07-26 20:38:45][main][api.facebook.main.PostsInfoCrawler][109]
+國防部發言人的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:39:40][main][api.facebook.main.PostsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][07-26 20:39:41][main][api.facebook.main.PostsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][07-26 20:41:28][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:41:28][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/158025223269/posts?limit=25&__paging_token=enc_AdDXyJniuv6z9I8rwNAvBCaC6gnmFtzQXZBxx1jMwBF2t4t50RqnZCtSO6gue1f1FxxczNZArtC3G6kdrP7tPu3FbmdGgDdN1xI3RHXZB61zdKHoYwZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1416654001
+[INFO ][07-26 20:41:41][main][api.facebook.method.GraphAPI][148]
+获取 BToday的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:41:45][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:41:46][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"158025223269_10152864287113270","from":{"name":"\u4eca\u5468\u520a","category":"Magazine","id":"158025223269"},"message":"\u3010\u5275\u696d\u8005\u7684\u4fee\u7df4\u3011\u4f4e\u8abf\u
+[INFO ][07-26 20:42:03][main][api.facebook.method.GraphAPI][108]
+获得"今周刊"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:42:06][main][api.facebook.main.PostsInfoCrawler][106]
+今周刊的贴文批量插入成功!
+[INFO ][07-26 20:42:09][main][api.facebook.main.PostsInfoCrawler][109]
+今周刊的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:42:32][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:42:32][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/160144950715498/posts?limit=25&__paging_token=enc_AdCZCZAh3LZBdNWCRId2KRsgnzup1Pi5wrrckf59c6ZAn8dXuQGDxRyNXEo5A69qkZCADI4YVR6uTT0T4vfXq7zRLyKiiIx2B8EuUOzF2ji59sRnMhwZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1399935000
+[INFO ][07-26 20:42:40][main][api.facebook.method.GraphAPI][148]
+获取 MilitarySpokesman的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:42:43][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:42:43][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"160144950715498_705545916175396","from":{"name":"\u570b\u9632\u90e8\u767c\u8a00\u4eba","category":"Government Organization","category_list":[{"id":"161422927240513","name":"Government 
+[INFO ][07-26 20:42:54][main][api.facebook.method.GraphAPI][108]
+获得"國防部發言人"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:42:56][main][api.facebook.main.PostsInfoCrawler][106]
+國防部發言人的贴文批量插入成功!
+[INFO ][07-26 20:42:56][main][api.facebook.main.PostsInfoCrawler][109]
+國防部發言人的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:57:15][main][api.facebook.main.PostsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][07-26 20:57:16][main][api.facebook.main.PostsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][07-26 20:57:17][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:57:17][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/158025223269/posts?limit=25&__paging_token=enc_AdCS9hAf0ZCl1iS6Od203HemI515gkWjzic0VPkFxqZAoE2SeOI3FKIRE5f3peKzqiqlZCum4oa4E4qSYbySNldxtfOsNWzdfb06jOmhE1GVtYYTQZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1416492281
+[INFO ][07-26 20:57:22][main][api.facebook.method.GraphAPI][148]
+获取 BToday的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:57:26][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:57:26][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"158025223269_10152860368258270","from":{"name":"\u4eca\u5468\u520a","category":"Magazine","id":"158025223269"},"message":"\u3010\u990a\u751f\u5927\u88dc\u5e16\u3011\u5169\u500b\u6c38\u
+[INFO ][07-26 20:57:26][main][api.facebook.method.GraphAPI][108]
+获得"今周刊"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:57:26][main][api.facebook.main.PostsInfoCrawler][107]
+今周刊的贴文批量插入成功!
+[INFO ][07-26 20:57:26][main][api.facebook.main.PostsInfoCrawler][110]
+今周刊的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:57:26][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:57:26][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/160144950715498/posts?limit=25&__paging_token=enc_AdDEf8DCTmR0QQMwciaP60CP5PKNOnEydUQyZA94ZCjVfZBoM7fVy6KEjJszlSdk7MFb5XIUXn2aXIQMlIUkopu5RwqJdNoNZCD1TE8DimcPb44qGwZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1399705545
+[INFO ][07-26 20:57:31][main][api.facebook.method.GraphAPI][148]
+获取 MilitarySpokesman的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:57:34][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:57:34][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"160144950715498_703693236360664","from":{"name":"\u570b\u9632\u90e8\u767c\u8a00\u4eba","category":"Government Organization","category_list":[{"id":"161422927240513","name":"Government 
+[INFO ][07-26 20:57:34][main][api.facebook.method.GraphAPI][108]
+获得"國防部發言人"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:57:34][main][api.facebook.main.PostsInfoCrawler][107]
+國防部發言人的贴文批量插入成功!
+[INFO ][07-26 20:57:35][main][api.facebook.main.PostsInfoCrawler][110]
+國防部發言人的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:57:35][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:57:35][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/268580496656613/posts?access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&limit=25&until=1435479741&__paging_token=enc_AdCZBx1TxyeeuqdIWRDZCQl5fhFoWTqbyraAoZCzMUqa6uGgZC9pL2U8NhJuG0iImuVEGarQSusKFjgX2rloY9IGVwgORAkhZAebEgPOGFgZCfUSIOVQZDZD
+[INFO ][07-26 20:57:41][main][api.facebook.method.GraphAPI][148]
+获取 Yilanashang的 posts 属性的状态：HTTP/1.1 200 OK
+[INFO ][07-26 20:57:44][main][api.facebook.method.GraphAPI][151]
+================获得的postsjson对象===============
+[INFO ][07-26 20:57:44][main][api.facebook.method.GraphAPI][153]
+{"data":[{"id":"268580496656613_442337102614284","from":{"name":"\u6797\u8070\u8ce2","category":"Politician","id":"268580496656613"},"message":"\u843d\u5be6\u8fb2\u820d\u8208\u5efa\u8cc7\u683c\u5be9\u
+[INFO ][07-26 20:57:44][main][api.facebook.method.GraphAPI][108]
+获得"林聰賢"的贴文信息成功！准备写入数据库！
+[INFO ][07-26 20:57:45][main][api.facebook.main.PostsInfoCrawler][107]
+林聰賢的贴文批量插入成功!
+[INFO ][07-26 20:57:45][main][api.facebook.main.PostsInfoCrawler][110]
+林聰賢的Next翻页链接更新成功!
+
+
+[INFO ][07-26 20:57:46][main][api.facebook.method.GraphAPI][241]
+==================请求的URL=====================
+[INFO ][07-26 20:57:46][main][api.facebook.method.GraphAPI][242]
+https://graph.facebook.com/v2.3/158025223269/posts?limit=25&__paging_token=enc_AdDjFz6uQ5Ww4gsC4vAo7x5ZApgeQDo8yZC2y3ZBU20JcZAGGNGQvC0l2RpiiiZB0T39yHl7RsqeRLmnI8hGmFsUjEd0GxvF2IOgAjR4RyiT4awWL1gZDZD&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b&until=1416380400

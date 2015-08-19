@@ -1,0 +1,10 @@
+package api.facebook.dao;
+
+import java.util.List;
+
+import api.facebook.bean.To;
+
+public interface ToDao
+{
+	public int[] batchInsert(List<To> tos);
+}

@@ -1,0 +1,28 @@
+package api.facebook.main;
+
+import java.sql.Timestamp;
+
+	
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import api.facebook.method.GetSeeds;
+import api.facebook.method.GraphAPI;
+import api.facebook.util.RollTableName;
+
+public class test
+{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GraphAPI api=new GetSeeds();
+		String time="2015-07-18T11:51:31+0000";
+		System.out.println(api.string2Timestamp(time, null));
+		
+		RollTableName Roll=new RollTableName("comments");
+		
+		String tableName=Roll.construct();
+		System.out.println(tableName);
+	}
+
+}

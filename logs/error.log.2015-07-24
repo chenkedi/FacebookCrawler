@@ -1,0 +1,124 @@
+[ERROR][07-24 09:38:54][main][api.facebook.method.GraphAPI][100]
+请求返回的不是一个json字符串！可能是代理软件或者VPN虽然开启，但是与境外服务器连接错误，导致返回错误的HTML实体！
+[ERROR][07-24 09:38:54][main][api.facebook.method.GraphAPI][101]
+睡眠30分钟后再重试请求API，错误信息：nullA JSONObject text must begin with '{' at 1 [character 2 line 1]
+[ERROR][07-24 10:08:55][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152226289601058_10152226295091058号”的Comment数据出错，错误信息：PreparedStatementCallback; SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; No operations allowed after statement closed.; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after statement closed.
+[ERROR][07-24 10:08:59][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152225894876058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:08:59][main][api.facebook.method.GraphAPI][91]
+{"to":{"data":[{"name":"\u8521\u82f1\u6587 Tsai Ing-wen","category":"Politician","id":"46251501064"}]},"id":"150336441057_10152225894876058","created_time":"2014-08-29T03:42:31+0000"}
+[ERROR][07-24 10:08:59][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:02][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152225742126058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:02][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152225742126058","created_time":"2014-08-29T01:28:37+0000"}
+[ERROR][07-24 10:09:02][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:07][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152224520316058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:07][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152224520316058","created_time":"2014-08-28T10:00:58+0000"}
+[ERROR][07-24 10:09:07][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:11][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152224298396058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:11][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152224298396058","created_time":"2014-08-28T06:00:01+0000"}
+[ERROR][07-24 10:09:11][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:14][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152224273551058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:14][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152224273551058","created_time":"2014-08-28T04:12:06+0000"}
+[ERROR][07-24 10:09:14][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:17][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152224253446058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:17][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152224253446058","created_time":"2014-08-28T03:50:44+0000"}
+[ERROR][07-24 10:09:17][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:20][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152221951506058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:20][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152221951506058","created_time":"2014-08-27T08:56:16+0000"}
+[ERROR][07-24 10:09:20][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:22][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152221746251058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:22][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152221746251058","created_time":"2014-08-27T04:25:15+0000"}
+[ERROR][07-24 10:09:22][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:27][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152219539856058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:27][main][api.facebook.method.GraphAPI][91]
+{"to":{"data":[{"name":"\u9673\u83ca (\u82b1\u5abd) \u5e02\u9577","category":"Politician","id":"232716627404"}]},"id":"150336441057_10152219539856058","created_time":"2014-08-26T02:55:14+0000"}
+[ERROR][07-24 10:09:27][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:30][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152219487681058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:30][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152219487681058","created_time":"2014-08-26T02:11:44+0000"}
+[ERROR][07-24 10:09:30][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:33][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152217470336058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:33][main][api.facebook.method.GraphAPI][91]
+{"to":{"data":[{"name":"\u6f58\u5b5f\u5b89","category":"Politician","id":"309973010630"}]},"id":"150336441057_10152217470336058","created_time":"2014-08-25T07:00:00+0000"}
+[ERROR][07-24 10:09:33][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:36][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152217698621058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:36][main][api.facebook.method.GraphAPI][91]
+{"to":{"data":[{"name":"\u6797\u667a\u5805","category":"Politician","id":"116135965179713"}]},"id":"150336441057_10152217698621058","created_time":"2014-08-25T06:13:45+0000"}
+[ERROR][07-24 10:09:36][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:39][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152217455021058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:39][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152217455021058","created_time":"2014-08-25T03:35:00+0000"}
+[ERROR][07-24 10:09:39][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:44][main][api.facebook.method.GraphAPI][90]
+当请求113408402197794_413618198843478的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:44][main][api.facebook.method.GraphAPI][91]
+{"id":"113408402197794_413618198843478","created_time":"2015-07-23T21:48:15+0000"}
+[ERROR][07-24 10:09:44][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:47][main][api.facebook.method.GraphAPI][90]
+当请求113408402197794_413651962173435的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:47][main][api.facebook.method.GraphAPI][91]
+{"id":"113408402197794_413651962173435","created_time":"2015-07-24T01:00:23+0000"}
+[ERROR][07-24 10:09:47][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:09:50][main][api.facebook.method.GraphAPI][90]
+当请求150336441057_10152874406241058的to属性时，字符串截取超过返回的json字符串的长度
+[ERROR][07-24 10:09:50][main][api.facebook.method.GraphAPI][91]
+{"id":"150336441057_10152874406241058","created_time":"2015-07-24T01:10:45+0000"}
+[ERROR][07-24 10:09:50][main][api.facebook.method.GraphAPI][92]
+String index out of range: 200
+[ERROR][07-24 10:37:47][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152807486591065_10152819818121065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x92\x95' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x92\x95' for column 'message' at row 1
+[ERROR][07-24 10:37:48][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152806260046065_10152808021001065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x91\x90\xE5\x8A...' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x91\x90\xE5\x8A...' for column 'message' at row 1
+[ERROR][07-24 10:37:50][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152806081691065_10152806091401065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x90\xB1\xF0\x9F...' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x90\xB1\xF0\x9F...' for column 'message' at row 1
+[ERROR][07-24 10:37:52][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152805696241065_10152805814016065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x8D' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x8D' for column 'message' at row 1
+[ERROR][07-24 10:37:57][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152802791526065_10152802843811065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'message' at row 1
+[ERROR][07-24 10:38:07][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152800023491065_10152800991826065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x8A\xF0\x9F...' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x8A\xF0\x9F...' for column 'message' at row 1
+[ERROR][07-24 10:38:19][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152796610816065_10152796633366065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x83' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x83' for column 'message' at row 1
+[ERROR][07-24 10:38:23][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152795300491065_10152795479171065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x8A\xE2\x98...' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x8A\xE2\x98...' for column 'message' at row 1
+[ERROR][07-24 10:38:28][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152792232861065_10152792255861065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\xA2' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\xA2' for column 'message' at row 1
+[ERROR][07-24 10:38:39][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“849997658422868_850008201755147号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x82' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x82' for column 'message' at row 1
+[ERROR][07-24 10:48:58][main][api.facebook.daoImpl.PostDaoImpl][58]
+数据库批量插入贴文“10152811424206065_10152811482331065号”的Comment数据出错，错误信息：PreparedStatementCallback; uncategorized SQLException for SQL [INSERT INTO comments_201507 (message_id,message,from_user_id,from_user_name,post_id,like_count,user_likes,created_time) VALUES (?,?,?,?,?,?,?,?)]; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x8A' for column 'message' at row 1; nested exception is java.sql.BatchUpdateException: Incorrect string value: '\xF0\x9F\x98\x8A' for column 'message' at row 1

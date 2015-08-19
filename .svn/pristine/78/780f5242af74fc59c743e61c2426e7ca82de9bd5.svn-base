@@ -1,0 +1,68 @@
+package api.facebook.main;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.json.JSONObject;
+import org.springframework.stereotype.Controller;
+
+import api.facebook.bean.Posts;
+import api.facebook.bean.Seeds;
+import api.facebook.dao.PostsDao;
+import api.facebook.dao.SeedsDao;
+import api.facebook.method.GetPosts;
+import api.facebook.method.GetSeeds;
+import api.facebook.util.AppContext;
+
+/**
+ * 爬取公众人物发表的帖文
+ * @author chenkedi
+ *
+ */
+@Controller
+public class PostsInfoCrawler
+{
+	@Resource
+	private PostsDao postsDao;
+	@Resource
+	private SeedsDao seedsDao;
+	
+	public static void main(String[] args){
+		System.out.println("正在创建数据库连接和缓冲池...");
+	    AppContext.initAppCtx();
+	    System.out.println("数据库连接已连接！缓冲池已建立");
+	    
+	    PostsInfoCrawler crawler= (PostsInfoCrawler) AppContext.appCtx.getBean(PostsInfoCrawler.class);
+	    crawler.run();
+	}
+	
+	public void run(){
+		while(true){
+			
+			List<Seeds> seeds=seedsDao.readSeedsForPosts(3);//获得需要爬取的种子队列
+			
+			if(seeds.size()!=0){
+				for(Seeds temp : seeds){
+					//初始化API的getSeeds方法
+	    			GetPosts getPosts=new GetPosts();
+	    			//调用api得到seeds的json数据
+	    			JSONObject jsonObject=getPosts.callAPI(temp.getUserName(),"posts");
+	    			//数据抽取，将json转换为bean的格式
+	    			List<Posts> postsList=getPosts.dataExtract(jsonObject.getJSONObject("posts"),temp.getSeedsId());//如果出现请求错误，seed可能为空，需要做处理
+	    			if(postsList.size()!=0){
+	    				postsDao.batchInsert(postsList);
+	    				System.out.println(temp.getName()+"的贴文批量插入成功\n\n");
+	    				seedsDao.update
+	    				//
+	    				seedsDao.updateCrawedForPosts(postsList.get(0));
+	    			}
+	    			else{
+	    				System.out.println(temp.getName()+"的贴文获取失败，继续采集下一个种子！\n\n");
+	    			}
+				}
+			}
+			
+		}
+	}
+}

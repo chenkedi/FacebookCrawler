@@ -1,0 +1,37 @@
+package api.facebook.http;
+
+import org.apache.http.HttpHost;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.DefaultProxyRoutePlanner;
+
+/**
+ * 生成使用代理的SSL HttpClient，适用于使用代理的环境
+ * 
+ * 后期改进需要将代理IP和代理端口号写进配置文件
+ * 
+ * @author chenkedi
+ *
+ */
+public class ProxyClient extends ClientFactory
+{
+
+	@Override
+	public CloseableHttpClient createClient() {
+		
+		SSLConnectionSocketFactory sslsf=buildSSLSocket();
+		
+		//设置代理主机
+		HttpHost proxy = new HttpHost("127.0.0.1", 1080);
+		DefaultProxyRoutePlanner routePlanner = new DefaultProxyRoutePlanner(proxy);
+		
+		httpClient = HttpClients.custom()
+				 .setSSLSocketFactory(sslsf)
+				  .setRoutePlanner(routePlanner)
+				 .build(); 
+		
+		return httpClient;
+	}
+
+}

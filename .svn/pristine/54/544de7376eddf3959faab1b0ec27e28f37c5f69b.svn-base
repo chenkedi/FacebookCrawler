@@ -1,0 +1,98 @@
+package api.facebook.method;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import api.facebook.bean.Posts;
+
+public class GetPosts extends GraphAPI
+{
+
+	public List<Posts> dataExtract(JSONObject jsonObject ,int seedsId) {
+			
+		
+		//如果请求没有成功，则返回错误信息和错误code
+		if(json.isErrorJson(jsonObject)){
+			Map<String,String> map=null;
+			map=json.jsonErrorMessage(jsonObject);
+			System.out.println("错误代码："+map.get("code")+"，错误信息："+map.get("message"));
+			return null;
+		}else{
+			
+			List<Posts> postList=new ArrayList<Posts>();
+			//获取翻页的api链接
+			JSONObject pageLinkJson=jsonObject.getJSONObject("paging");
+			JSONArray jsonArray=jsonObject.getJSONArray("data");
+			for(int i=0;i<jsonArray.length();i++){
+				Posts post= new Posts();
+				JSONObject postJsonObj=jsonArray.getJSONObject(i);
+				
+				//先处理post本表内部对应json对象中的一级键值
+				post.setMessageId(postJsonObj.getString("id"));
+				post.setMessage(postJsonObj.getString("message"));
+				post.setCreatedTime(string2Timestamp( postJsonObj.getString("created_time"), null));
+				post.setSeedsId(seedsId);				
+				if(postJsonObj.has("link")){
+					post.setLink(postJsonObj.getString("link"));
+				}else{
+					post.setLink(null);
+				}
+				
+				if(postJsonObj.has("picture")){
+					post.setPicture(postJsonObj.getString("picture"));
+				}else{
+					post.setPicture(null);
+				}
+				
+				if(postJsonObj.has("shares")){
+					post.setShares(postJsonObj.getInt("shares"));
+				}else{
+					post.setShares(null);
+				}
+				
+				/*===============每条post插入的都是相同的pagelink信息，后期要优化=====================*/
+				if(pageLinkJson.has("previous")){
+					post.setPostsPreviousPage(pageLinkJson.getString("previous"));
+				}else{
+					post.setPostsPreviousPage(null);
+				}
+				
+				if(pageLinkJson.has("next")){
+					post.setPostsNextPage(pageLinkJson.getString("next"));
+				}else{
+					post.setPostsNextPage(null);
+				}
+				
+				postList.add(post);
+
+				if(jsonArray.length()-1==i){
+					System.out.println("获得\""+postJsonObj.getJSONObject("from").getString("name")+"\"的贴文信息成功！准备写入数据库！");
+				}
+			}
+			
+			return postList;
+		}
+
+	}
+
+}
+
+//处理评论部分
+//if(postJsonObj.has("comments")){
+//	JSONArray commentArray=postJsonObj.getJSONObject("comments").getJSONArray("data");
+//	List<Comments> comments=new ArrayList<Comments>();
+//	for(int j=0;i<commentArray.length();j++){
+//		JSONObject commentObj=commentArray.getJSONObject(j);
+//		Comments comment=new Comments();
+//		comment.setMessageId(commentObj.getString("id"));
+//		comment.setMessage(commentObj.getString("message"));
+//		comment.setFromUserId(commentObj.getJSONObject("from").getString("id"));
+//		comment.setFromUserName(commentObj.getJSONObject("from").getString("name"));
+//		comment.setPostId(postJsonObj.getInt(arg0));
+//		
+//	}
+//}

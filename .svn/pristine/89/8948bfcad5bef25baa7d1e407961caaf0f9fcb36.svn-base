@@ -1,0 +1,19 @@
+package api.facebook.dao;
+
+import java.util.List;
+
+import api.facebook.bean.Posts;
+
+public interface PostsDao
+{
+	/**
+	 * 单条插入post
+	 * @param post
+	 */
+	public void addPosts(Posts post);
+	
+	/**
+	 * 批量插入List<Posts>
+	 */
+	public int[] batchInsert(final List<Posts> posts);
+}
