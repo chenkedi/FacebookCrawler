@@ -1,0 +1,500 @@
+[INFO ][08-20 16:16:32][main][api.facebook.main.ProfilePictureCrawler][27]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 16:16:33][main][api.facebook.main.ProfilePictureCrawler][29]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 16:16:34][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 16:16:34][main][api.facebook.method.GraphAPI][257]
+https://www.facebook.com/tsaiingwen
+[INFO ][08-20 16:16:36][main][api.facebook.method.GraphAPI][44]
+获取 tsaiingwen的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 16:16:42][main][api.facebook.method.GraphAPI][47]
+================获得的tsaiingwen的前200字符================
+[INFO ][08-20 16:16:42][main][api.facebook.method.GraphAPI][48]
+<!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLaz
+[INFO ][08-20 20:32:28][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 20:32:29][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 20:32:29][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:32:29][main][api.facebook.method.GraphAPI][257]
+https://www.facebook.com/tsaiingwen
+[INFO ][08-20 20:32:31][main][api.facebook.method.GraphAPI][50]
+获取 tsaiingwen的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 20:32:43][main][api.facebook.method.GraphAPI][53]
+================获得的tsaiingwen的前200字符================
+[INFO ][08-20 20:32:43][main][api.facebook.method.GraphAPI][54]
+<!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLaz
+[INFO ][08-20 20:32:43][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:32:43][main][api.facebook.method.GraphAPI][257]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 20:32:45][main][api.facebook.method.GraphAPI][101]
+请求失败！
+[INFO ][08-20 20:35:33][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 20:35:34][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 20:35:34][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:35:34][main][api.facebook.method.GraphAPI][257]
+https://www.facebook.com/tsaiingwen
+[INFO ][08-20 20:35:38][main][api.facebook.method.GraphAPI][50]
+获取 tsaiingwen的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 20:36:14][main][api.facebook.method.GraphAPI][53]
+================获得的tsaiingwen的前200字符================
+[INFO ][08-20 20:36:14][main][api.facebook.method.GraphAPI][54]
+<!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLaz
+[INFO ][08-20 20:36:14][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:36:14][main][api.facebook.method.GraphAPI][257]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 20:36:16][main][api.facebook.method.GraphAPI][88]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 20:36:16][main][api.facebook.method.GraphAPI][102]
+请求失败！
+[INFO ][08-20 20:41:51][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 20:41:51][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 20:41:52][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:41:52][main][api.facebook.method.GraphAPI][257]
+https://www.facebook.com/tsaiingwen
+[INFO ][08-20 20:42:01][main][api.facebook.method.GraphAPI][50]
+获取 tsaiingwen的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 20:43:43][main][api.facebook.method.GraphAPI][53]
+================获得的tsaiingwen的前200字符================
+[INFO ][08-20 20:43:43][main][api.facebook.method.GraphAPI][54]
+<!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLaz
+[INFO ][08-20 20:43:43][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:45:15][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 20:45:16][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 20:45:16][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:46:03][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 20:46:04][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 20:46:04][main][api.facebook.method.GraphAPI][256]
+==================请求的URL=====================
+[INFO ][08-20 20:46:04][main][api.facebook.method.GraphAPI][257]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&oe=5644A001&__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b
+[INFO ][08-20 20:46:07][main][api.facebook.method.GraphAPI][89]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 20:46:07][main][api.facebook.method.GraphAPI][103]
+请求失败！
+[INFO ][08-20 21:14:53][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:14:53][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 21:14:54][main][api.facebook.method.GraphAPI][258]
+
+[INFO ][08-20 21:15:59][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:15:59][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 21:16:00][main][api.facebook.method.GraphAPI][258]
+
+[INFO ][08-20 21:16:20][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:16:20][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 21:16:21][main][api.facebook.method.GraphAPI][258]
+fbcdn-profile-a.akamaihd.net
+[INFO ][08-20 21:16:21][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 21:16:21][main][api.facebook.method.GraphAPI][268]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&oe=5644A001&__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 21:16:31][main][api.facebook.method.GraphAPI][88]
+获取图片链接的状态：HTTP/1.1 200 OK
+[INFO ][08-20 21:16:31][main][api.facebook.method.GraphAPI][90]
+图片请求成功！
+[INFO ][08-20 21:22:41][main][api.facebook.main.ProfilePictureCrawler][26]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:22:41][main][api.facebook.main.ProfilePictureCrawler][28]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 21:22:42][main][api.facebook.method.GraphAPI][258]
+fbcdn-profile-a.akamaihd.net
+[INFO ][08-20 21:22:42][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 21:22:42][main][api.facebook.method.GraphAPI][268]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&oe=5644A001&__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 21:22:44][main][api.facebook.method.GraphAPI][88]
+获取图片链接的状态：HTTP/1.1 200 OK
+[INFO ][08-20 21:22:44][main][api.facebook.method.GraphAPI][90]
+图片请求成功！
+[INFO ][08-20 21:22:44][main][api.facebook.method.GraphAPI][128]
+创建文件成功！[picture/7.jpg]
+[INFO ][08-20 21:53:23][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:53:23][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 21:53:37][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:53:38][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 21:55:27][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 21:55:28][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:10:09][main][api.facebook.main.SeedsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:10:10][main][api.facebook.main.SeedsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:10:11][main][api.facebook.main.SeedsInfoCrawler][64]
+所有种子的个人信息采集完成，睡眠30分钟后重新扫描！
+
+
+[INFO ][08-20 22:10:18][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:10:19][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:14:12][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:14:12][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:17:15][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:17:16][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:17:57][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:18:04][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:20:10][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:20:11][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:28:46][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:28:46][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:31:51][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:31:51][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:32:32][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:32:33][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:32:54][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:32:55][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:33:11][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:33:12][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:35:13][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:35:14][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:35:34][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:35:35][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:35:46][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:35:47][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:36:04][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:36:04][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:36:42][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:36:43][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:40:40][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:40:41][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:42:05][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:42:56][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:42:57][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:44:46][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:44:47][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:48:17][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:48:17][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:53:56][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:53:56][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:53:57][main][api.facebook.method.GraphAPI][258]
+www.facebook.com
+[INFO ][08-20 22:53:57][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:53:57][main][api.facebook.method.GraphAPI][268]
+https://www.facebook.com/46251501064
+[INFO ][08-20 22:54:03][main][api.facebook.method.GraphAPI][52]
+获取 46251501064的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 22:54:56][main][api.facebook.method.GraphAPI][55]
+================获得的46251501064的前200字符================
+[INFO ][08-20 22:54:56][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="zh-Hans" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requi
+[INFO ][08-20 22:54:56][main][api.facebook.method.GraphAPI][258]
+fbcdn-profile-a.akamaihd.net
+[INFO ][08-20 22:54:56][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:54:56][main][api.facebook.method.GraphAPI][268]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 22:55:05][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 22:55:05][main][api.facebook.method.GraphAPI][104]
+请求失败！
+[INFO ][08-20 22:55:05][main][api.facebook.method.GraphAPI][258]
+www.facebook.com
+[INFO ][08-20 22:55:05][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:55:05][main][api.facebook.method.GraphAPI][268]
+https://www.facebook.com/796255990463702
+[INFO ][08-20 22:55:08][main][api.facebook.method.GraphAPI][52]
+获取 796255990463702的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 22:55:54][main][api.facebook.method.GraphAPI][55]
+================获得的796255990463702的前200字符================
+[INFO ][08-20 22:55:54][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="zh-Hans" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requi
+[INFO ][08-20 22:55:54][main][api.facebook.method.GraphAPI][258]
+fbcdn-profile-a.akamaihd.net
+[INFO ][08-20 22:55:54][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:55:54][main][api.facebook.method.GraphAPI][268]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/c42.0.160.160/p160x160/11751758_850605605028740_824762414818109749_n.jpg?oh=0f4b59902a9d569be68bae88977b2d15&amp;oe=56359728&amp;__gda__=1450403582_5e84041270ce0d5d7985accee3316b07
+[INFO ][08-20 22:56:07][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 22:56:07][main][api.facebook.method.GraphAPI][104]
+请求失败！
+[INFO ][08-20 22:56:07][main][api.facebook.method.GraphAPI][258]
+www.facebook.com
+[INFO ][08-20 22:56:07][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:56:07][main][api.facebook.method.GraphAPI][268]
+https://www.facebook.com/118250504903757
+[INFO ][08-20 22:56:11][main][api.facebook.method.GraphAPI][52]
+获取 118250504903757的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 22:56:45][main][api.facebook.method.GraphAPI][55]
+================获得的118250504903757的前200字符================
+[INFO ][08-20 22:56:45][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="zh-Hans" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requi
+[INFO ][08-20 22:56:45][main][api.facebook.method.GraphAPI][258]
+fbcdn-profile-a.akamaihd.net
+[INFO ][08-20 22:56:45][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:56:45][main][api.facebook.method.GraphAPI][268]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p160x160/601281_512807412114729_1282506169_n.jpg?oh=d6211227482c3b1411619f595ac56153&amp;oe=567C00EC&amp;__gda__=1450477627_3f1c28a53e75781ce582973137ee0cf7
+[INFO ][08-20 22:56:56][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 22:56:56][main][api.facebook.method.GraphAPI][104]
+请求失败！
+[INFO ][08-20 22:56:56][main][api.facebook.method.GraphAPI][258]
+www.facebook.com
+[INFO ][08-20 22:56:56][main][api.facebook.method.GraphAPI][267]
+==================请求的URL=====================
+[INFO ][08-20 22:56:56][main][api.facebook.method.GraphAPI][268]
+https://www.facebook.com/10150145806225128
+[INFO ][08-20 22:57:02][main][api.facebook.method.GraphAPI][52]
+获取 10150145806225128的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 22:59:29][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 22:59:30][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 22:59:31][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 22:59:31][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/46251501064
+[INFO ][08-20 23:00:05][main][api.facebook.method.GraphAPI][52]
+获取 46251501064的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:04:48][main][api.facebook.method.GraphAPI][55]
+================获得的46251501064的前200字符================
+[INFO ][08-20 23:04:48][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="zh-Hans" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requi
+[INFO ][08-20 23:04:48][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:04:48][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:05:01][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 23:05:01][main][api.facebook.method.GraphAPI][104]
+请求失败！
+[INFO ][08-20 23:05:01][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:05:01][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/796255990463702
+[INFO ][08-20 23:05:21][main][api.facebook.method.GraphAPI][52]
+获取 796255990463702的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:06:20][main][api.facebook.method.GraphAPI][55]
+================获得的796255990463702的前200字符================
+[INFO ][08-20 23:06:20][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="zh-Hans" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requi
+[INFO ][08-20 23:06:20][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:06:20][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/c42.0.160.160/p160x160/11751758_850605605028740_824762414818109749_n.jpg?oh=0f4b59902a9d569be68bae88977b2d15&amp;oe=56359728&amp;__gda__=1450403582_5e84041270ce0d5d7985accee3316b07
+[INFO ][08-20 23:08:23][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:08:24][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:09:02][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:09:02][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/46251501064
+[INFO ][08-20 23:09:16][main][api.facebook.method.GraphAPI][52]
+获取 46251501064的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:09:37][main][api.facebook.method.GraphAPI][55]
+================获得的46251501064的前200字符================
+[INFO ][08-20 23:09:39][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="zh-Hans" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requi
+[INFO ][08-20 23:09:59][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:10:02][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:15:25][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:15:27][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:16:01][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 23:16:20][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:16:20][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:16:21][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:16:21][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/46251501064
+[INFO ][08-20 23:16:25][main][api.facebook.method.GraphAPI][52]
+获取 46251501064的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:22:22][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:22:23][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:22:24][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:22:24][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&oe=5644A001&__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:22:31][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:22:31][main][api.facebook.method.GraphAPI][92]
+图片请求成功！
+[INFO ][08-20 23:29:02][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:29:03][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:29:37][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:29:37][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:30:39][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:30:40][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:30:50][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:30:50][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/46251501064
+[INFO ][08-20 23:31:02][main][api.facebook.method.GraphAPI][52]
+获取 46251501064的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:31:45][main][api.facebook.method.GraphAPI][55]
+================获得的46251501064的前200字符================
+[INFO ][08-20 23:31:45][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLaz
+[INFO ][08-20 23:34:38][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:34:39][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:36:58][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 23:38:15][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:38:16][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:39:16][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:39:16][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:39:17][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:39:17][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&oe=5644A001&__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:39:29][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:39:29][main][api.facebook.method.GraphAPI][92]
+图片请求成功！
+[INFO ][08-20 23:40:45][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:40:45][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:40:46][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:40:46][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/46251501064
+[INFO ][08-20 23:41:00][main][api.facebook.method.GraphAPI][52]
+获取 46251501064的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:42:53][main][api.facebook.method.GraphAPI][55]
+================获得的46251501064的前200字符================
+[INFO ][08-20 23:42:53][main][api.facebook.method.GraphAPI][56]
+<!DOCTYPE html>
+<html lang="en" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><script>function envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLaz
+[INFO ][08-20 23:42:53][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:42:53][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&amp;oe=5644A001&amp;__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:43:05][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 403 Forbidden
+[INFO ][08-20 23:43:05][main][api.facebook.method.GraphAPI][104]
+请求失败！
+
+
+[INFO ][08-20 23:43:05][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:43:05][main][api.facebook.method.GraphAPI][267]
+https://www.facebook.com/796255990463702
+[INFO ][08-20 23:43:14][main][api.facebook.method.GraphAPI][52]
+获取 796255990463702的主页源码的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:43:56][main][api.facebook.main.ProfilePictureCrawler][33]
+正在创建数据库连接和缓冲池...
+[INFO ][08-20 23:43:57][main][api.facebook.main.ProfilePictureCrawler][35]
+数据库连接已连接！缓冲池已建立
+[INFO ][08-20 23:43:57][main][api.facebook.method.GraphAPI][266]
+==================请求的URL=====================
+[INFO ][08-20 23:43:57][main][api.facebook.method.GraphAPI][267]
+https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.13.160.160/p160x160/401537_10150454248171065_796546345_n.jpg?oh=01a3ba6ca815aaf2ccddab29791927ba&oe=5644A001&__gda__=1450305005_1637dffea59fba4d97b4c6e8df2e58ee
+[INFO ][08-20 23:43:59][main][api.facebook.method.GraphAPI][90]
+获取图片链接的状态：HTTP/1.1 200 OK
+[INFO ][08-20 23:43:59][main][api.facebook.method.GraphAPI][92]
+图片请求成功！

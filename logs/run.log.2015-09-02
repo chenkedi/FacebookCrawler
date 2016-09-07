@@ -1,0 +1,24 @@
+[INFO ][09-02 21:36:32][main][api.facebook.main.FeedsInfoCrawler][36]
+正在创建数据库连接和缓冲池...
+[INFO ][09-02 21:36:33][main][api.facebook.main.FeedsInfoCrawler][38]
+数据库连接已连接！缓冲池已建立
+[INFO ][09-02 21:36:34][main][api.facebook.method.GraphAPI][259]
+==================请求的URL=====================
+[INFO ][09-02 21:36:34][main][api.facebook.method.GraphAPI][260]
+https://graph.facebook.com/v2.3/1583074611965856/feed?limit=25&since=1439274001&__paging_token=enc_AdDZB2ySaR3T6uAxFk1AcakItpYKGsdZBZBsHJuOaumRaxlr0vLEGiNaYtinKNGqdFKZCd1QDJC5Hhy2fLJpEvUpdNZBdCC1VCogZAg67XFMVonJrVcQZDZD&__previous=1&access_token=1628625687408087%7c878b93ffea9985a0835dc9442756e05b
+[ERROR][09-02 21:37:04][main][api.facebook.method.GraphAPI][268]
+未知的网络连接错误错误！
+[ERROR][09-02 21:37:04][main][api.facebook.method.GraphAPI][269]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.io.EOFException: SSL peer shut down incorrectlyRemote host closed connection during handshake
+[INFO ][09-02 22:11:11][main][api.facebook.main.CommentsCrawler][39]
+正在创建数据库连接和缓冲池...
+[INFO ][09-02 22:11:12][main][api.facebook.main.CommentsCrawler][41]
+数据库连接已连接！缓冲池已建立
+[INFO ][09-02 22:11:39][main][api.facebook.main.CommentsCrawler][39]
+正在创建数据库连接和缓冲池...
+[INFO ][09-02 22:11:40][main][api.facebook.main.CommentsCrawler][41]
+数据库连接已连接！缓冲池已建立
+[INFO ][09-02 22:12:48][main][api.facebook.method.GraphAPI][259]
+==================请求的URL=====================
+[INFO ][09-02 22:12:48][main][api.facebook.method.GraphAPI][260]
+https://graph.facebook.com/286641114694665_1205174252841342?fields=to&access_token=1628625687408087%7C878b93ffea9985a0835dc9442756e05b

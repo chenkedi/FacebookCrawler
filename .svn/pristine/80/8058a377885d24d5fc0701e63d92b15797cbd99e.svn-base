@@ -1,6 +1,0 @@
-package api.facebook.dao;
-
-public interface CommentsDao
-{
-
-}

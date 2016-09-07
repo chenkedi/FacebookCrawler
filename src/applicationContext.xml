@@ -31,6 +31,16 @@
 		</property>
 	</bean>
 	
+	<!-- 使用该方法可以直接将配置文件读入spring预置的类型为properties类中，在注入的类中使用@Value直接注入properties类或者使用spEL注入每一项的值 -->
+	<bean id="paramsUtil" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="locations">
+			<list>
+				<value>classpath:accessToken.properties</value>
+				<value>classpath:params.properties</value>
+			</list>
+		</property>
+	</bean>
+	
 	
 	<!-- 使用Apache 旗下的DBCP连接池项目 配置数据源 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
@@ -53,6 +63,9 @@
 		<property name="defaultAutoCommit">
 			<value>true</value>
 		</property>
+		<!-- 增加连接池清除超时连接的属性 -->
+		<property name="testWhileIdle" value="true"></property>
+		<property name="timeBetweenEvictionRunsMillis" value="300000"></property>
 	</bean>
 	
 	<!-- 配置第二个数据源 -->

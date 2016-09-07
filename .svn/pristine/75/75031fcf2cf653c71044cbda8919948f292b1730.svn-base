@@ -1,8 +1,0 @@
-package api.facebook.daoImpl;
-
-import api.facebook.dao.CommentsDao;
-
-public class CommentsDaoImply implements CommentsDao
-{
-
-}

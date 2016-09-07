@@ -1,0 +1,24 @@
+[ERROR][08-25 11:19:28][main][api.facebook.method.GraphAPI][275]
+未知的网络连接错误错误！
+[ERROR][08-25 11:19:28][main][api.facebook.method.GraphAPI][276]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: nullSSL peer shut down incorrectly
+[ERROR][08-25 11:22:56][main][api.facebook.method.GraphAPI][275]
+未知的网络连接错误错误！
+[ERROR][08-25 11:22:56][main][api.facebook.method.GraphAPI][276]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: nullHost name 'fbcdn-profile-a.akamaihd.net' does not match the certificate subject provided by the peer (CN=a248.e.akamai.net, O="Akamai Technologies, Inc.", L=Cambridge, ST=MA, C=US)
+[ERROR][08-25 13:08:07][main][api.facebook.method.GraphAPI][275]
+未知的网络连接错误错误！
+[ERROR][08-25 13:08:07][main][api.facebook.method.GraphAPI][276]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.io.EOFException: SSL peer shut down incorrectlyRemote host closed connection during handshake
+[ERROR][08-25 13:13:16][main][api.facebook.method.GraphAPI][275]
+未知的网络连接错误错误！
+[ERROR][08-25 13:13:16][main][api.facebook.method.GraphAPI][276]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.io.EOFException: SSL peer shut down incorrectlyRemote host closed connection during handshake
+[ERROR][08-25 13:19:01][main][api.facebook.method.GraphAPI][275]
+未知的网络连接错误错误！
+[ERROR][08-25 13:19:01][main][api.facebook.method.GraphAPI][276]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.io.EOFException: SSL peer shut down incorrectlyRemote host closed connection during handshake
+[ERROR][08-25 13:24:07][main][api.facebook.method.GraphAPI][275]
+未知的网络连接错误错误！
+[ERROR][08-25 13:24:07][main][api.facebook.method.GraphAPI][276]
+可能是代理软件被关闭或者vpn已断开，睡眠5分钟再尝试连接: java.io.EOFException: SSL peer shut down incorrectlyRemote host closed connection during handshake
